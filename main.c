@@ -6,10 +6,6 @@ int main(void) {
     double result;
     scanf("%d",&x);
     result= x + 100;
-    printf("%f/15",1/result);
-
-
-
-    
+    printf("%.15f\n",1/result);   
     return 0;
 }
